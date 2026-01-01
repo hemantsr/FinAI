@@ -1,0 +1,7 @@
+crewai
+litellm
+pandas
+numpy
+openpyxl
+yfinance
+argparse

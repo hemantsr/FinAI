@@ -1,0 +1,65 @@
+# ======================
+# Secrets & Environment
+# ======================
+.env
+.env.*
+*.env
+
+# ======================
+# Python Virtual Envs
+# ======================
+.venv/
+venv/
+env/
+ENV/
+
+# ======================
+# Python Cache
+# ======================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ======================
+# Jupyter / Notebooks
+# ======================
+.ipynb_checkpoints/
+
+# ======================
+# Build / Distribution
+# ======================
+build/
+dist/
+*.egg-info/
+
+# ======================
+# IDE / Editor
+# ======================
+.vscode/
+.idea/
+*.iml
+
+# ======================
+# OS Files
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# Logs & Runtime Files
+# ======================
+*.log
+logs/
+*.out
+
+# ======================
+# CrewAI / LLM Artifacts
+# ======================
+.traces/
+crewai_traces/
+.cache/
+.llm_cache/
+litellm_logs/
+
+
